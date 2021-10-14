@@ -19,7 +19,6 @@ export default {
   components: {
     BookItem,
     BookForm
-    BookForm
   },
   data() {
         return {
