@@ -5,7 +5,7 @@
       <book-item v-for="book in books" :book='book'></book-item><!--key from the prop :book='book'-->
     </ul>
     <hr>
-    <book-form @addBook='appendBoook'></book-form>
+    <book-form @addBook='appendBook'></book-form>
   </div>
 
 </template>
